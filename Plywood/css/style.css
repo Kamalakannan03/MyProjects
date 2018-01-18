@@ -1,0 +1,315 @@
+	body{
+		/*background-color: #fffaf4 !important;*/
+		background-color: #ffffff !important;
+	}
+
+	.navbar-default {
+		/*background-color: rgba(157, 115, 72, 0.36);
+		border-color: rgba(157, 115, 72, 0.36);*/
+		background-color:rgba(95, 94, 90, 0.78);
+		border-color:rgba(95, 94, 90, 0.78);
+	}
+	.navbar-default .navbar-brand {
+		color: #ffffff;
+		font-size: 1.5em;
+		font-family: sans-serif;
+		font-weight: 600;
+	}
+	.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+		color: #ffffff;
+		font-size: 1.5em;
+		
+		/* font-family: ITC Avant Garde Gothic – Demi; */
+	}
+	
+	.navbar-default .navbar-nav>li>a {
+		color: #ffffff;
+	}
+	 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:visited{
+		color: #ffffff;
+		background-color:rgba(69, 67, 62, 0.73);
+		/* font-family: ITC Avant Garde Gothic – Demi; */
+	}
+	.navbar-nav li a:hover, .navbar-nav > .active > a{
+		color: #ffffff;
+		background-color:rgba(69, 67, 62, 0.73)!important;
+	}
+    .carousel-caption {
+        right: 0%;
+        left: 0%;
+        width: 100%;
+		padding: 70px;
+		font-size: 2em;
+		font-weight:bold;
+		text-shadow: 0 0 3px #91ff00, 0 0 5px #ff0000;
+    }
+	.jumbotron {
+		background-color: #fffaf4 !important;
+	
+	}
+    .table-margin {
+        padding: 24px;
+    }
+	.empty-tab{
+	    background-color: rgb(255, 250, 244);
+	}
+	.header-introduction{
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		padding-top: 24px;
+		font-size: 36px;
+		text-align: center;
+	}
+	.introduction{
+		padding: 24px;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	.main-table{
+	margin-left:50px;
+	}
+	.bt-card{
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				    margin-bottom: 30px;
+					margin-top: 30px;
+				}
+	.about-us-text {
+		font-size: 1.2em !important;
+		font-family: sans-serif !important;
+	}
+		
+	.services-text{
+		font-family: sans-serif !important;
+		font-size: 1.2em !important;
+		
+	}			
+	/**
+	#media query to make grid responsive
+	#make grid responsive when screen size reduces below 768px(mobile devices)
+	*/
+	@media only screen and (max-width: 768px) {		
+		
+		.device-table{
+			width:100%!important;
+		}
+		.main-table{
+			margin-left:55px;
+			margin-right:55px;
+		}
+		.brand-pic{
+			height: 33% !important;
+			width: 24% !important;
+			border-radius: 20% !important;
+		}
+				
+		.contact-img{
+			//display:none !important;
+		}
+		.navbar-default {
+			background-color: rgb(214, 53, 37);
+			border-color: rgb(214, 53, 37);
+		}
+		.container-fluid {
+			margin-top: 50px !important;
+		}
+		.margin-setter-about{
+			margin-top:28px !important;
+			margin-bottom:20px !important;
+		}
+		.container-padding {
+			padding-left: 33px !important;
+			padding-right: 33px !important;
+			padding-top: 12px !important;
+		}
+		.margin-setter {
+			margin-top: 0px !important;
+			margin-bottom: 0px !important;
+		}
+		.navbar-default .navbar-toggle {
+			 border-color:rgb(214, 53, 37)!important;
+		}
+		.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+			background-color: rgba(85, 18, 18, 0.24);
+		}
+		.container.margin-setter-brands {
+			padding-top: 35px;
+		}
+		.centered{
+			display:none !important;
+		}
+		.down-button{
+				display:none !important;
+		}
+		.carousel-caption{
+			display:none !important;
+		}
+		.header-text{
+			font-size:1.2em !important;
+		}
+		.navbar-left{
+			display:none !important;
+		}
+		
+	}	
+	.col-md-4,.col-sm-6,.col-xs-6{
+		padding-top: 15px ;
+		padding-bottom: 15px;
+	}
+	.caption{
+	font-size: 24px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px #d9c9ba;
+	}
+	
+	footer.footer {
+	margin-top: 50px;
+    background-color: #46413c;
+    height: 200px;
+	}
+	.vertical {
+		list-style: none;
+		display: inline;
+		padding-left: 30px;
+		font-size: xx-large;
+	}
+	.fa {
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.brand-pic{
+		height: 24%;
+		width: 30%;
+        border-radius: 20%;
+	}
+	.brand-pic:hover{
+		box-shadow: 0 8px 52px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	
+	
+	img.img-responsive.header-align {
+		margin: 0 auto;
+		height:50px;
+	}
+	.margin-setter{
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	.margin-setter-about{
+		margin-top:65px;
+		margin-bottom:30px;
+	}
+	.margin-setter-contact
+	{
+		margin-top:30px;
+	}	
+	.margin-setter-services{
+		margin-top:60px;
+	}
+	
+	
+	
+	/*.centered {
+    position: absolute;
+    top: 78%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+	font-family: serif;
+	}*/
+	
+		.centered {
+		color: white;
+		font-size: 3em;
+		font-family: sans-serif;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		top: -4em;
+		/* left: 25%; */
+		/* transform: translate(-50%, -50%); */
+	}
+	
+	.nopadding {
+	   padding: 0 !important;
+	   margin: 0 !important;
+	}
+
+	.container-fluid{
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+	
+	.gold{
+		color:#bc8b13;
+	}
+	.contact-text{
+		height:350px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		background-color:#ffffff;
+		background-image: url("../images/contact/cardbg.jpg");
+		font-weight:600;
+		opacity: 0.9;
+		color:#191919;
+	}
+	.contact-img{
+		width: 35px;
+		height: 35px;
+	}
+	.brand-img{
+		width: auto;
+		height: 100%;
+		object-fit: contain;
+	}
+	.down-button{
+		margin-top: -78px;
+  		margin-left: 50%;
+	}
+	.padding-nullify{
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+	.contact-header{
+		font-size:1.8em !important;
+		font-style:initial;
+	}
+	.contact-body{
+		font-size:1.0em !important;
+	}
+	.card{
+		 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.row-eq-height {
+		  display: -webkit-box;
+		  display: -webkit-flex;
+		  display: -ms-flexbox;
+		  display:         flex;
+		}
+	/*.hideme
+	{
+		opacity:0;
+	}*/
+	.pop{
+		cursor: -webkit-zoom-in;
+		cursor: zoom-in;
+	}
+	
+	.container.margin-setter-brands {
+		min-height: 1116px;
+		}
+		
+		.footer-text {
+			color: white;
+		}
+		
+	.brand-icon	{
+		width:65px;
+		height:75px;
+		padding-top:10px;
+	}
+	@media only screen and (min-width: 769px){
+		nav.navbar.navbar-default.navbar-fixed-top {
+		height: 50px;
+		}
+	}	
+	
+	
