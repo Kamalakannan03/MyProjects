@@ -5,4 +5,4 @@
 #This is the responsive static website using bootstrap (www.svlawassociates.com)
 #
 #Plywood
-#This is the responsive static website using bootstrap (srivenkateswaraplywoods.com)
+#This is the responsive static website using bootstrap (www.srivenkateswaraplywoods.com)
